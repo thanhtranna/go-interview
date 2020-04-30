@@ -1,4 +1,4 @@
-# go-interview [![Build Status]()]() [![Go Report Card]()]() [![GoDoc]()]() [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# go-interview [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Collection of Technical Interview Questions solved with Go
 
