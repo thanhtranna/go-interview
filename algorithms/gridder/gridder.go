@@ -1,7 +1,7 @@
 package gridder
 
 import (
-	"errors"
+	"fmt"
 	"image/color"
 
 	"github.com/fogleman/gg"
@@ -9,9 +9,9 @@ import (
 )
 
 var (
-	errNoRows      = errors.New("no rows provided")
-	errNoColumns   = errors.New("no columns provided")
-	errOutOfBounds = errors.New("out of bounds")
+	errNoRows      = fmt.Errorf("no rows provided")
+	errNoColumns   = fmt.Errorf("no columns provided")
+	errOutOfBounds = fmt.Errorf("out of bounds")
 )
 
 // New creates a new gridder and sets it up with its configuration
